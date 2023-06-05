@@ -1,16 +1,15 @@
 import React from 'react';
 
 import './style.scss';
-
-import ContentWrapper from '../../components/contentWrapper/ContentWrapper';
+import ContantWrapper from '../../Components/contentWrraper/ContantWrapper';
 
 const PageNotFound = () => {
     return (
         <div className='pageNotFound'>
-            <ContentWrapper>
+            <ContantWrapper>
                 <span className='bigText'>404</span>
                 <span className='smallText'>Page not found!</span>
-            </ContentWrapper>
+            </ContantWrapper>
         </div>
     );
 };
